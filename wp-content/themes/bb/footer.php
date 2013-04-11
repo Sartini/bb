@@ -10,7 +10,7 @@
  * @since Twenty Twelve 1.0
  */
 ?>
-	</div><!-- #main .wrapper -->
+	</div><!--/ficha div container-fluid--> 
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
@@ -19,6 +19,19 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-transition.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-alert.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/bootstrap/bootstrap-modal.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-tab.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-popover.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-button.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-carousel.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/bootstrap/bootstrap-typeahead.js"></script>
+
 <?php wp_footer(); ?>
 </body>
-</html>
